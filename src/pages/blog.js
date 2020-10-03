@@ -1,15 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
 
-const BlogPage = () => {
+const Blog = () => {
   return (
     <div>
-      <Layout>
-        <h1>Blog</h1>
-        <p>Posts will show up here later.</p>
-      </Layout>
+      <Layout>This is the blog template</Layout>
     </div>
   )
 }
 
-export default BlogPage
+export default Blog
