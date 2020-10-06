@@ -3,35 +3,34 @@
   "private": true,
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
-  "license": "0BSD",
+  "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "npm gatsby build",
     "develop": "env-cmd -f .env gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
-    "@contentful/rich-text-react-renderer": "^14.1.1",
-    "gatsby": "^2.24.66",
-    "gatsby-plugin-react-helmet": "^3.3.13",
-    "gatsby-plugin-sass": "^2.3.14",
-    "gatsby-plugin-sharp": "^2.6.38",
-    "gatsby-remark-images": "^3.3.32",
-    "gatsby-remark-relative-images": "^2.0.2",
-    "gatsby-source-contentful": "^2.3.50",
-    "gatsby-source-filesystem": "^2.3.32",
-    "gatsby-transformer-remark": "^2.8.37",
-    "node-sass": "^4.14.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0"
+    "@contentful/rich-text-react-renderer": "^13.2.0",
+    "gatsby": "^2.3.3",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-plugin-sharp": "^2.0.32",
+    "gatsby-remark-images": "^3.0.10",
+    "gatsby-remark-relative-images": "^0.2.2",
+    "gatsby-source-contentful": "^2.0.47",
+    "gatsby-source-filesystem": "^2.0.28",
+    "gatsby-transformer-remark": "^2.3.8",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0"
   },
   "devDependencies": {
-    "env-cmd": "^10.1.0",
-    "prettier": "2.1.2"
+    "env-cmd": "^8.0.2",
+    "prettier": "^1.16.4"
   },
   "repository": {
     "type": "git",
